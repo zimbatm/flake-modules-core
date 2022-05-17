@@ -8,6 +8,8 @@
 
     pre-commit-hooks-nix.url = "github:hercules-ci/pre-commit-hooks.nix/flakeModule";
     pre-commit-hooks-nix.inputs.nixpkgs.follows = "nixpkgs";
+
+    hercules-ci-effects.url = "github:Kranzes/hercules-ci-effects";
   };
 
   outputs = { self, ... }:
